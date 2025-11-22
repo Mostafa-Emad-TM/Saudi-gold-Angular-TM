@@ -1,0 +1,15 @@
+p{
+    color: rgb(103, 103, 103);
+    font-weight: 500;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.boxstyl{
+    border-radius: 20px;
+     background-color: var(--bg_color_hd);
+   box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+}

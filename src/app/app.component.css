@@ -1,0 +1,229 @@
+
+header .hd_left ul{
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   gap: 15px;
+    
+}
+header .hd_left .profile{
+   width: 180px;
+   height: 40px;
+   border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: var(--bg_color_hd);
+   box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+  gap: 10px;
+  cursor: pointer;
+   
+    
+}
+ .darck_ly{
+ width: 100%;
+   height: 100%;
+   background-color: #00000067;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   z-index: 1000;
+   
+    
+}
+
+
+.show{
+   display: block;
+}
+.hide{
+   display: none;
+}
+header .hd_left .profile{
+   width: 180px;
+   height: 40px;
+   border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: var(--bg_color_hd);
+   box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+  gap: 10px;
+  cursor: pointer;
+   
+    
+}
+header .hd_left  .demo{
+   width: 150px;
+   height: auto;
+   border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: var(--bg_color_hd);
+   box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+  gap: 10px;
+    position: absolute;
+    top:  1.4%;
+    left: 7.6%;
+    padding: 10px;
+    z-index: 100;
+   
+    
+}
+header .hd_left  .demo ul{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 15px;
+  
+    
+}
+header .hd_left  .demo button{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   background-color: transparent;
+   border: none;
+
+  color: red;
+  cursor: pointer;
+    
+}
+header .hd_left  .demo ul li a{
+  width: max-content;
+  color: black ;
+  
+    
+}
+
+header .hd_left .profile i ,header .hd_left .demo i{
+   
+    font-size: 1rem;
+    padding-top: 3%;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+header .hd_left .profile span ,header .hd_left .demo span{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  gap: 5px;
+  padding: 0px 2px;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+header .hd_left .profile img ,header .hd_left .demo img{
+width: 32px;
+height: 32px;
+border-radius: 100%;
+cursor: pointer;
+    
+}
+header .hd_left .lang  {
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg_color_hd);
+     box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+   padding: 0px 10px 0px 10px;
+   cursor: pointer;
+    
+}
+header .hd_left .notf  {
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg_color_hd);
+     box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+   padding: 0px 11px 0px 11px;
+   position: relative;
+   cursor: pointer;
+    
+}
+header .hd_left .notf span {
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg_color_notfcation);
+   position: absolute;
+   left: -2.8px;
+   top: -2.8px;
+    font-family: "Gilroy-SemiBold";
+color: var(--wight_color);
+font-size:.8rem;
+
+font-weight: 600;
+
+
+}
+
+header .hd_right{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10px 0px;
+
+}
+
+header .hd_right form{
+   width: 85%;
+   height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10px 5px 10px 14px;
+   gap: 5px;
+   background-color: var(--bg_color_hd);
+    box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+   border-radius: 30px;
+   margin-left: 1%;
+   
+}
+header .hd_right form input{
+   width: 90%;
+   height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10px 0px;
+   outline: none;
+   border: none;
+   direction: rtl;
+   
+}
+header .hd_right form i{
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+
+.side_par{
+   
+    height: 100vh;
+    background: var(--side_bar_color);
+    
+   
+}

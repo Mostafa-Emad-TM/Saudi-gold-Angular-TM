@@ -1,0 +1,278 @@
+
+.spon{
+   width: 90%;
+    height: 150px;
+   border-radius: 20px; 
+   position: relative;
+    background: url("/Assets/img/Group108.png" ) var(--bg_color_green);
+}
+.spon img{
+height: 115%;
+position: absolute;
+bottom: 0px;
+  
+}
+.spon .contnt {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+}
+.spon .contnt h1{
+
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+text-align: right;
+color: var(--wight_color);
+
+
+  
+}
+.spon .contnt button{
+
+width: 110px;
+height: 50px ;
+background: #FFD700;
+border: none;
+border-radius: 101px;
+color: var(--wight_color);
+cursor: pointer;
+align-self: flex-end;
+font-size: .9rem;
+font-weight: 700;
+  
+}
+
+/* ==================alloys============== */
+
+.alloys .shw__alloy{
+
+    text-align: left;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: .8rem;
+color: var(--txt_color);
+
+
+}
+
+
+.alloys .slc__alloy{
+
+    text-align: right;
+    font-family: 'DIN Next LT Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--txt_color);
+    padding-right: 22px;
+
+}
+.alloys .slc__alloy h6{
+
+
+
+
+
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: .9rem;
+
+color: #1E1E2D;
+
+
+
+}
+.alloys .slc__alloy h5{
+
+
+
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 24px;
+
+
+color: #000000;
+
+
+
+}
+
+/* =================== ctg_card============ */
+
+.ctg_card{
+    height: 35px;
+    border-radius: 25px;
+    box-shadow:  1px 1px 15px rgba(0, 0, 0, 0.092);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 17px 10px;
+}
+.ctg_card .photo {
+    width: 37px;
+    height: 37px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ctg_card .photo span{
+ font-size: 1.3rem;
+}
+.ctg_card .photo img {
+    width: 100%;
+   padding: 2px;
+}
+
+.ctg_card .ctg_contnt p{
+   padding-top: 15px ;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 500;
+font-size: .8rem;
+line-height: 18px;
+
+}
+.ctg_card .ctg_contnt {
+    
+  cursor: pointer;
+
+}
+/* ===================card================ */
+.con_card{
+    
+height: auto;
+   display: flex; 
+   align-items: center;
+   justify-content: space-around;
+   
+
+}
+.con_card .crd{
+
+    width: 236px ;
+    height: 163px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.con_card .crd .crd_contnt{
+
+    width: 95%;
+    height: 115px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+   position: absolute;
+   bottom: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 5px 5px;
+   
+  cursor: pointer;
+
+}
+.con_card .crd .crd_contnt .prcnt{
+    width: max-content;
+   font-size: .7rem ;
+   font-weight: bold;
+   background-color: rgba(85, 201, 96, 0.12);
+   color: var(--bg_color_green);
+   padding-right: 4px;
+   border-radius: 5px;
+   margin-right: 7px;
+  
+
+}
+.con_card .crd .crd_contnt h3{
+
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+align-self: flex-end;
+
+color: var(--txt_color);
+margin-bottom: 1.5px;
+margin-right: 10%;
+
+
+}
+.con_card .crd .crd_contnt span{
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6px !important;
+color: var(--txt_color);
+
+}
+.con_card .crd .crd_contnt span image{
+
+width: 27px;
+height: 27px;
+
+
+}
+.con_card .crd .crd_contnt  p{
+
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+margin: 0px;
+margin-left: 5px;
+color: #A1A2AF;
+
+}
+.con_card .crd .crd_pht{
+    
+    width: 93%;
+    height: 130px;
+    background-color: rgba(245, 245, 245, 1);
+    position: absolute;
+    bottom: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.con_card .crd .crd_pht span{
+    
+   width: 23px;
+   height: 23px;
+    background-color: rgb(228, 220, 220);
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: .8rem;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+.con_card .crd .crd_pht img{
+    
+    height: 84%;
+
+}
